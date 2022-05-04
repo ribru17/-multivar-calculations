@@ -12,11 +12,12 @@ triple_int <- function() {
 
     # use input to compute a triple integral of the
     # given function over the specified bounds
-    eval(parse(text = paste("stats::integrate(Vectorize(function(x) {
+    cat("Triple integral:\n")
+    print(eval(parse(text = paste("stats::integrate(Vectorize(function(x) {
         stats::integrate(Vectorize(function(y) {
             stats::integrate(function(z) {",
         split_data[[1]][1], " }, ", split_data[[1]][6], ", ",
         split_data[[1]][7], ")$value }), ", split_data[[1]][4], ",",
         split_data[[1]][5], ")$value }), ", split_data[[1]][2], ",",
-        split_data[[1]][3], ")")))
+        split_data[[1]][3], ")"))))
 }

@@ -15,8 +15,8 @@ three_d <- function() {
 
     # find the area under the curve in the graphed domain
     cat("Area under the curve:\n")
-    eval(parse(text = paste("stats::integrate(Vectorize(function(x)
+    print(eval(parse(text = paste("stats::integrate(Vectorize(function(x)
     {stats::integrate((function(y) {",
     userinput,
-    "}), -2, 2)$value }), -2,2)")))
+    "}), -2, 2)$value }), -2,2)"))))
 }
