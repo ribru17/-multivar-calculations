@@ -1,5 +1,5 @@
 # Multivariable Calculations
-Program to compute flux, surface integrals, etc.
+Program to compute flux, triple integrals, etc.
 ## Running
 ### In RStudio
 Import code and run each section (or entire file with Ctrl + Shift + S) normally
