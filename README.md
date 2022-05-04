@@ -8,17 +8,17 @@ Import code and run each section (or entire file with Ctrl + Shift + S) normally
 (or entire file with Ctrl + Shift + S) normally
 ## What it does
 ### 3D graph, double integral
-Graphs a given function $z = f(x,y)$ from $x \times y$ where $\{ (x,y)\,|\,x,y \in [-2, 2]\}$
-and computes the volume beneath this domain as $\int_{-2}^{2}\int_{-2}^{2} f(x,y)\,dydx$
+Graphs a given function <img src="https://render.githubusercontent.com/render/math?math=z = f(x,y)"> from <img src="https://render.githubusercontent.com/render/math?math=x \times y"> where <img src="https://render.githubusercontent.com/render/math?math=\{ (x,y)\,|\,x,y \in [-2, 2]\}">
+and computes the volume beneath this domain as <img src="https://render.githubusercontent.com/render/math?math=\int_{-2}^{2}\int_{-2}^{2} f(x,y)\,dydx">
 ### Triple integral
-Computes the triple integral $\int_{x_1}^{x_2}\int_{y_1}^{y_2}\int_{z_1}^{z_2}f(x,y,z)\,dzdydx$
+Computes the triple integral <img src="https://render.githubusercontent.com/render/math?math=\int_{x_1}^{x_2}\int_{y_1}^{y_2}\int_{z_1}^{z_2}f(x,y,z)\,dzdydx">
 ### Flux / surface integral
-Computes the flux of a vector field $\vec f$ through a given surface $S$ where the surface is parametrized
-as $\vec r(x,y) = (r_1, r_2, r_3)$ with $x \in [x_1, x_2], y \in [y_1, y_2]$ and the vector field
-is $\vec f(x,y,z)$. Computed as $\int_{x_1}^{x_2}\int_{y_1}^{y_2} \vec f \cdot \vec n\,dydx$
+Computes the flux of a vector field <img src="https://render.githubusercontent.com/render/math?math=\vec f"> through a given surface S where the surface is parametrized
+as <img src="https://render.githubusercontent.com/render/math?math=\vec r(x,y) = (r_1, r_2, r_3)"> with <img src="https://render.githubusercontent.com/render/math?math=x \in [x_1, x_2], y \in [y_1, y_2]"> and the vector field
+is <img src="https://render.githubusercontent.com/render/math?math=\vec f(x,y,z)">. Computed as <img src="https://render.githubusercontent.com/render/math?math=\int_{x_1}^{x_2}\int_{y_1}^{y_2} \vec f \cdot \vec n\,dydx">
 ### Line integral
-Computes the integral along the curve $\vec r(t)$ from $t_1$ to $t_2$
-through the vector field $\vec f(x,y,z)$. Computed as $\int_{t_1}^{t_2}\vec f(\vec r(t))\cdot r'(t)\,dt$
+Computes the integral along the curve <img src="https://render.githubusercontent.com/render/math?math=\vec r(t)"> from <img src="https://render.githubusercontent.com/render/math?math=t_1"> to <img src="https://render.githubusercontent.com/render/math?math=t_2">
+through the vector field <img src="https://render.githubusercontent.com/render/math?math=\vec f(x,y,z)">. Computed as <img src="https://render.githubusercontent.com/render/math?math=\int_{t_1}^{t_2}\vec f(\vec r(t))\cdot r'(t)\,dt">
 ## Examples
 ### Flux
 The `compute_flux()` function given
